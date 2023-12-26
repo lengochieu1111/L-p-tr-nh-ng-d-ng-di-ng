@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2B2B2B"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Tuan2.TinhTong.TinhTong.MainActivity_Tuan2_Intent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:text="
+            Result:"
+            android:textSize="25dp"/>
+
+        <EditText
+            android:id="@+id/edt"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:cursorVisible="false"
+            android:ellipsize="end"
+            android:gravity="right"
+            android:hint="0"
+            android:imeOptions="flagNoExtractUi"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textColor="#AAA"
+            android:textSize="60dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
