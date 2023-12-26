@@ -17,25 +17,6 @@
             android:exported="false" />
         <activity
             android:name=".Tuan3.MainActivity_Tuan3_ListView"
-            android:exported="false"/>
-        <!-- TUAN 2-->
-        <activity
-            android:name=".Tuan2.ListView.Kotlin.MainActivity_Tuan2_ListView_Kotlin"
-            android:exported="false" />
-        <activity
-            android:name=".Tuan2.ListView.Java.MainActivity_ListView"
-            android:exported="false" />
-        <activity
-            android:name=".Tuan2.TinhTong.Kotlin.MainActivity_Tuan2_Intent_TinhTong_Kotlin"
-            android:exported="false" />
-        <activity
-            android:name=".Tuan2.TinhTong.Kotlin.MainActivity_Tuan2_TinhTong_Kotlin"
-            android:exported="false" />
-        <activity
-            android:name=".Tuan2.TinhTong.TinhTong.MainActivity_Tuan2_Intent"
-            android:exported="false" />
-        <activity
-            android:name=".Tuan2.TinhTong.TinhTong.MainActivity_Tuan2"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -43,6 +24,27 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- TUAN 2-->
+        <activity
+            android:name=".Tuan2.ListView.Kotlin.MainActivity_Tuan2_ListView_Kotlin"
+            android:exported="false"/>
+        <activity
+            android:name=".Tuan2.ListView.Java.MainActivity_ListView"
+            android:exported="false"/>
+        <activity
+            android:name=".Tuan2.TinhTong.Kotlin.MainActivity_Tuan2_Intent_TinhTong_Kotlin"
+            android:exported="false" />
+        <activity
+            android:name=".Tuan2.TinhTong.Kotlin.MainActivity_Tuan2_TinhTong_Kotlin"
+            android:exported="false"/>
+        <activity
+            android:name=".Tuan2.TinhTong.TinhTong.MainActivity_Tuan2_Intent"
+            android:exported="false" />
+        <activity
+            android:name=".Tuan2.TinhTong.TinhTong.MainActivity_Tuan2"
+            android:exported="false"/>
+
         <!-- TUAN 1-->
         <activity
             android:name=".Tuan1.Tuan1_MainActivity"
