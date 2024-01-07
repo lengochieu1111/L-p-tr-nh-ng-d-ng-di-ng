@@ -21,6 +21,7 @@ public class MainActivity_Tuan3_ListView extends AppCompatActivity {
         setContentView(R.layout.activity_main_tuan3_list_view);
 
         lv = findViewById(R.id.tuan3_lv);
+
         ls.add(new Tuan3_Contact("Nguyễn Văn Toàn", "17", R.drawable.face_smiling));
         ls.add(new Tuan3_Contact("Trương Mai Anh", "19", R.drawable.head_female));
         ls.add(new Tuan3_Contact("Triệu Hoán", "20", R.drawable.head_sunglasses));

@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,10 +15,7 @@
         android:theme="@style/Theme.AppCompat.Light"
         tools:targetApi="31">
         <activity
-            android:name=".Tuan3.ThucHanh.MainActivity_Tuan3_CustomListView"
-            android:exported="false" />
-        <activity
-            android:name=".Tuan3.MainActivity_Tuan3_ListView"
+            android:name=".Tuan4.Tuan4_Kotlin_MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,27 +24,35 @@
             </intent-filter>
         </activity>
 
-        <!-- TUAN 2-->
+    <activity
+            android:name=".Tuan4.Tuan4_MainActivity"
+            android:exported="false"/>
+
+        <!-- SALES PROJECT - NIKE -->
+        <activity
+            android:name=".SalesProject_Nike.MainActivity_SPN_Home"
+            android:exported="false" /> <!-- TUAN 3 -->
+        <activity
+            android:name=".Tuan3.MainActivity_Tuan3_ListView"
+            android:exported="false" /> <!-- TUAN 2 -->
         <activity
             android:name=".Tuan2.ListView.Kotlin.MainActivity_Tuan2_ListView_Kotlin"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".Tuan2.ListView.Java.MainActivity_ListView"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".Tuan2.TinhTong.Kotlin.MainActivity_Tuan2_Intent_TinhTong_Kotlin"
             android:exported="false" />
         <activity
             android:name=".Tuan2.TinhTong.Kotlin.MainActivity_Tuan2_TinhTong_Kotlin"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".Tuan2.TinhTong.TinhTong.MainActivity_Tuan2_Intent"
             android:exported="false" />
         <activity
             android:name=".Tuan2.TinhTong.TinhTong.MainActivity_Tuan2"
-            android:exported="false"/>
-
-        <!-- TUAN 1-->
+            android:exported="false" /> <!-- TUAN 1 -->
         <activity
             android:name=".Tuan1.Tuan1_MainActivity"
             android:exported="false" />
